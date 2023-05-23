@@ -1,0 +1,14 @@
+{
+  "name": "eleventy-includes-async-shortcodes-demo",
+  "version": "0.1.0",
+  "description": "moyai",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "author": "Ryan Cao <hello@ryanccn.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
