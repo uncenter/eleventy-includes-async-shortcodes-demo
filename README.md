@@ -55,3 +55,7 @@ However, if we include the `boopSync.njk`, which contains `{% beepSync %}` (a _s
 ![Loop with include and sync shortcode](./loop_includes_sync.png)
 
 We see the 42 and the %% on each iteration.
+
+### ASYNC EACH loop with include and async shortcode
+
+![](./async_each_includes_async.png)

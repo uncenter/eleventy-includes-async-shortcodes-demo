@@ -29,3 +29,11 @@
         <p>%%</p>
     {% endfor %}
 </div>
+
+<div style="background-color: blue; color: white;">
+    <p>ASYNC EACH loop with includes (async shortcode):</p>
+    {% asyncEach i in range(0, 10) %}
+    {% include 'boop.njk' %}
+    <p>%%</p>
+    {% endeach%}
+</div>
