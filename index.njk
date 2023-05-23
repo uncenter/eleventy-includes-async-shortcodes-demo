@@ -1,4 +1,22 @@
-{% for i in range(0, 10) %}
-  {% include 'boop.njk' %}
-  24
+<div style="background-color: red; color: white;">
+    <p>Normal loop:</p>
+    {% for i in range(0, 10) %}
+  42
 {% endfor %}
+</div>
+
+<div style="background-color: green; color: white;">
+    <p>Loop with includes (async shortcode):</p>
+    {% for i in range(0, 10) %}
+        {% include 'boop.njk' %}
+        <p>%%</p>
+    {% endfor %}
+</div>
+
+<div style="background-color: blue; color: white;">
+    <p>Loop with includes (sync shortcode):</p>
+    {% for i in range(0, 10) %}
+        {% include 'boopSync.njk' %}
+        <p>%%</p>
+    {% endfor %}
+</div>
